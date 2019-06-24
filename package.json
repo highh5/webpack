@@ -2,7 +2,7 @@
   "name": "demo1",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack src/main.js -o dist/bundle.js --mode development"
+    "start": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "jquery": "^3.4.1"
