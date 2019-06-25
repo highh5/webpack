@@ -5,3 +5,10 @@ $("ul li:odd").css({background:'purple'})
 import './index.css'
 import './index.less'
 import './a.scss'
+
+class Person {
+  constructor(){
+
+  }
+}
+var p = new Person();
